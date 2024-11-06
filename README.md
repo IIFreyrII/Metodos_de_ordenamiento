@@ -16,4 +16,4 @@ Inserción: Aunque es más eficiente en listas parcialmente ordenadas (ya que mi
 
 Selección: Este método es menos eficiente porque busca el valor mínimo de toda la lista en cada iteración, incluso cuando no es necesario en listas que ya están parcialmente ordenadas. Esto incrementa el número de comparaciones, sin optimización alguna para listas parcialmente organizadas.
 
-Por estas razones, en listas extensas, los algoritmos 𝑂(𝑛 log 𝑛), como MergeSort o QuickSort, que dividen y conquistan las comparaciones, son más adecuados al reducir significativamente el número de operaciones necesarias para ordenar la lista completa.
+Por estas razones, en listas extensas, los algoritmos 𝑂(𝑛 log 𝑛), como MergeSort o QuickSort, que dividen las comparaciones, son más adecuados al reducir significativamente el número de operaciones necesarias para ordenar la lista completa.
